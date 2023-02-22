@@ -11,6 +11,8 @@ namespace WEB315_Assignments_ThemeCricket.Models
         public string City { get; set; }
         public string State { get; set; }
         public decimal Price { get; set; }
+        public int Capacity { get; set; }
+        public string FirstMatch { get; set; }
 
     }
 }

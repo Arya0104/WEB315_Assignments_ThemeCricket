@@ -41,3 +41,8 @@ successfully installed and comitted successfully
     Was getting too many errors in dotnet build, beacuse I failed to update database first before initializing and updated it on old value, then had to manually update the CRUD pages and ran command dotnet ef migrations add "rating"
 
     Completed successfully and comitted successfully
+
+   ////////////// Continuing with Assignment 02 - By the name Assignment_02_Branch///////////////////
+
+1. Branch created by the name Assignment-2
+2. 2 new property added as an int and string... commit successfully
