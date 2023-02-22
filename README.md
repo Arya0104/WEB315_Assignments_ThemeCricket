@@ -48,3 +48,7 @@ successfully installed and comitted successfully
 2. 2 new property added as an int and string... commit successfully
 3. Updating the SeedData class to provide a value for each new model value.
 commit successfully
+4. updating the migrated values...
+using commands as dotnet ef migrations add "rating"
+dotnet ef database update
+ commit successfully
