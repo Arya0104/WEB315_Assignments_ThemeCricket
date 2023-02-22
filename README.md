@@ -46,3 +46,5 @@ successfully installed and comitted successfully
 
 1. Branch created by the name Assignment-2
 2. 2 new property added as an int and string... commit successfully
+3. Updating the SeedData class to provide a value for each new model value.
+commit successfully

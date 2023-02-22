@@ -26,7 +26,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-04"),
                         City = "Mumbai",
                         State = "Maharashtra",
-                        Price = 3500
+                        Price = 3500,
+                        Capacity = 90000,
+                        FirstMatch = "India Vs Pakistan"
                     },
 
                     new ThemeCricket
@@ -35,7 +37,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-07"),
                         City = "Auckland",
                         State = "New Zealand",
-                        Price = 2800
+                        Price = 2800,
+                        Capacity = 75000,
+                        FirstMatch = "West Indies Vs New Zealand"
                     },
 
                     new ThemeCricket
@@ -44,7 +48,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-11"),
                         City = "Galle",
                         State = "Sri Lanka",
-                        Price = 2200
+                        Price = 2200,
+                        Capacity = 40000,
+                        FirstMatch = "Bangladesh Vs Sri Lanka"
 
                     },
                     
@@ -55,7 +61,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-14"),
                         City = "Cape Town",
                         State = "South Africa",
-                        Price = 2700
+                        Price = 2700,
+                        Capacity = 60000,
+                        FirstMatch = "Zimbabwe Vs South Africa"
                     },
                     
 
@@ -65,7 +73,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-18"),
                         City = "London",
                         State = "England",
-                        Price = 3200
+                        Price = 3200,
+                        Capacity = 80000,
+                        FirstMatch = "Afganistan Vs England"
                     },
                     
 
@@ -75,7 +85,9 @@ namespace WEB315_Assignments_ThemeCricket.Models
                         BookingDate = DateTime.Parse("2023-03-22"),
                         City = "Brisbane",
                         State = "Australia",
-                        Price = 3400
+                        Price = 3400,
+                        Capacity = 110000,
+                        FirstMatch = "Ireland Vs Australia"
                         
                     }
                    
