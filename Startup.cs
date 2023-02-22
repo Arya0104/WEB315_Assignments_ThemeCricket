@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace WEB315_Assignments_ThemeCricket
 {
@@ -24,6 +25,9 @@ namespace WEB315_Assignments_ThemeCricket
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<ThemeCricketContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("ThemeCricketContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

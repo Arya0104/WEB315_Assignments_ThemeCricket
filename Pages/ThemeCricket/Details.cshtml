@@ -1,0 +1,43 @@
+@page
+@model WEB315_Assignments_ThemeCricket.Pages_ThemeCricket.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>ThemeCricket</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeCricket.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeCricket.Title)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeCricket.ReleaseDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeCricket.ReleaseDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeCricket.Genre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeCricket.Genre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ThemeCricket.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ThemeCricket.Price)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.ThemeCricket.ID">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>
