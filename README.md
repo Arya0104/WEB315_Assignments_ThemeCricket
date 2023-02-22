@@ -34,3 +34,5 @@ comitted successfully
 
 11. Adding Theme Index to the Nav bar of Home page
 successfully installed and comitted successfully
+
+12. Creating 6 Database values for the properties created in Theme. Created new file as SeedData.cs Commit successfully
