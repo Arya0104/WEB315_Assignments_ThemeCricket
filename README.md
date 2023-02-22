@@ -36,3 +36,8 @@ comitted successfully
 successfully installed and comitted successfully
 
 12. Creating 6 Database values for the properties created in Theme. Created new file as SeedData.cs Commit successfully
+
+13. Updated Database values and Initializing SeedData.cs 
+    Was getting too many errors in dotnet build, beacuse I failed to update database first before initializing and updated it on old value, then had to manually update the CRUD pages and ran command dotnet ef migrations add "rating"
+
+    Completed successfully and comitted successfully
