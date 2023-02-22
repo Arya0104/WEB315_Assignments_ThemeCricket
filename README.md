@@ -53,3 +53,15 @@ using commands as dotnet ef migrations add "rating"
 dotnet ef database update
  commit successfully
 5. Error - Updating all the CRUD files... commit successfully
+5.  Adding validation rules to my model properties as follows:
+    All string properties must have a value and cannot be saved without a value. (i.e.
+    no null values, strings are required to have a value) - /// Completed successfully
+    All strings properties must have either a minimum length, maximum length, or
+    both. (ex. a chess player name could have a minimum length of 4 and a maximum
+    length of 32) - /// Completed successfully
+    The newly added string property (from step 2) must only accept letters, and the
+    first letter is required to be uppercase. (i.e. white spaces are also allowed, while
+    numbers and special characters are not allowed) - /// Completed successfully
+    The newly added integer property (from step 2) must restrict the value to be within
+    an range of your choosing - /// Completed successfully
+Commit successfully
