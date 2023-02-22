@@ -68,3 +68,12 @@ Commit successfully
 6. Migration - dotnet ef migrations add "rating Database"
     dotnet ef database update
 commit successfully
+7. Adding the ability to search my database data on  Razor webapp project's CRUD
+    Index page, given the following restrictions:
+    You can choose to search against any string property of your model, new or old. - ///Done successfully
+    You should be able to submit a value in a form on the CRUD Index page to
+    perform the search. - ///Completed successfully
+    The search should return data that contains the string value. (i.e. doesn't have to
+    be an exact match) - ///Completed successfully
+8. Search box worked and Selectlist created successfully
+commit successfully ASsignment successfully completed.

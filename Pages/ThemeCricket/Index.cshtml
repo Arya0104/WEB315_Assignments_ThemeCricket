@@ -10,6 +10,16 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+
+<form>
+    <p>
+        <select asp-for="WorldCup" asp-items="Model.Stadiums">
+        <option value="">All</option>
+        </select>
+        Stadium Name: <input type="text" asp-for="SearchString" />
+        </p>
+</form>
+
 <table class="table">
     <thead>
         <tr>
