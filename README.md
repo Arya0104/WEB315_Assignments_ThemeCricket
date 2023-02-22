@@ -31,3 +31,6 @@ comitted successfully
     dotnet ef database update
 
     Committed successfully
+
+11. Adding Theme Index to the Nav bar of Home page
+successfully installed and comitted successfully
