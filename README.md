@@ -65,3 +65,6 @@ dotnet ef database update
     The newly added integer property (from step 2) must restrict the value to be within
     an range of your choosing - /// Completed successfully
 Commit successfully
+6. Migration - dotnet ef migrations add "rating Database"
+    dotnet ef database update
+commit successfully
