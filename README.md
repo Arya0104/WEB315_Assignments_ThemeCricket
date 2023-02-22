@@ -52,3 +52,4 @@ commit successfully
 using commands as dotnet ef migrations add "rating"
 dotnet ef database update
  commit successfully
+5. Error - Updating all the CRUD files... commit successfully
