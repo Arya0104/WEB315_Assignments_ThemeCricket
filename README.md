@@ -21,3 +21,11 @@ Program running successfully. Committing changes
 
 8. Input tag added
     New Method TopPlayers created. Committing changes
+
+9. Passed input value to new method using a lambda expression. Committing changes
+
+Program running successfully. Committing changes
+
+============
+Assignment-03 completed successfully
+===========

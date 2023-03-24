@@ -12,7 +12,8 @@
 </p>
 
 <label>Show Top Players:</label>
-<input type="number">
+<input type="number" value="@PlayerList" @onchange="@(e => TopPlayers(int.Parse(e.Value.ToString())))">
+
 
 @code{
     private string[] Players = new string[5];
@@ -32,4 +33,5 @@
         {
             PlayerList = num;
         }
+    }
 }

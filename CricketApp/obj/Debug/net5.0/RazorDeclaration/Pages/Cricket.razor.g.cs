@@ -91,7 +91,7 @@ using CricketApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\Pages\Cricket.razor"
+#line 18 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\Pages\Cricket.razor"
       
     private string[] Players = new string[5];
 
@@ -104,6 +104,13 @@ using CricketApp.Shared;
     }
 
     private int PlayerList = 5;
+
+    private void TopPlayers(int num){
+        if (num >= 0 && num <=5)
+        {
+            PlayerList = num;
+        }
+    }
 
 #line default
 #line hidden
