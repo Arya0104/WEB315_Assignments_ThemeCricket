@@ -7,3 +7,5 @@
 4. In counter.razor, incremented the number by 2 and have set the condition to reset number 0, when reaches higher value of 15.
 
 Program running successfully. Committing changes
+
+5. New Component created by the name Cricket.razor. Committing changes
