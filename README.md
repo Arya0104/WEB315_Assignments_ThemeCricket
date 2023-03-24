@@ -4,3 +4,6 @@
 
 3. Home Page Updated. Comitting changes.
 
+4. In counter.razor, incremented the number by 2 and have set the condition to reset number 0, when reaches higher value of 15.
+
+Program running successfully. Committing changes
