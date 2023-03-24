@@ -9,3 +9,5 @@
 Program running successfully. Committing changes
 
 5. New Component created by the name Cricket.razor. Committing changes
+
+6. New component linked to the nav menu. Committing changes
