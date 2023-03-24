@@ -11,3 +11,10 @@ Program running successfully. Committing changes
 5. New Component created by the name Cricket.razor. Committing changes
 
 6. New component linked to the nav menu. Committing changes
+
+7. Empty string added to the new component. 
+    Button added.
+    Onclick added to show the strings.
+    loop added to show the strings below the button.
+    String is appearing on new line.
+    Committing changes

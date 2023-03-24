@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace CricketApp.Shared
+namespace CricketApp.Pages
 {
     #line hidden
     using System;
@@ -82,7 +82,8 @@ using CricketApp.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Cricket")]
+    public partial class Cricket : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,16 +91,19 @@ using CricketApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 33 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
+#line 14 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\Pages\Cricket.razor"
+      
+    private string[] Players = new string[5];
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
-
-    private void ToggleNavMenu()
-    {
-        collapseNavMenu = !collapseNavMenu;
+    private void CricketPlayers(){
+        Players[0] = "Virat Kohli";
+        Players[1] = "Babar Azam";
+        Players[2] = "Surya Kumar Yadav";
+        Players[3] = "Steve Smith";
+        Players[4] = "Rohit Sharma";
     }
+
+    private int PlayerList = 5;
 
 #line default
 #line hidden

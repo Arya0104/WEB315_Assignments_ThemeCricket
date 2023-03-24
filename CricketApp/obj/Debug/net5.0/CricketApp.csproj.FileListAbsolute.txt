@@ -56,3 +56,5 @@ C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\Cricket
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\obj\Debug\net5.0\CricketApp.pdb
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\obj\Debug\net5.0\CricketApp.genruntimeconfig.cache
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\obj\Debug\net5.0\CricketApp.csproj.CopyComplete
+C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\obj\Debug\net5.0\RazorDeclaration\Pages\Cricket.razor.g.cs
+C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Assignments_ThemeCricket\CricketApp\obj\Debug\net5.0\Razor\Pages\Cricket.razor.g.cs
