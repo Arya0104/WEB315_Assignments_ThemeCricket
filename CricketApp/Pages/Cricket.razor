@@ -11,6 +11,9 @@
     }
 </p>
 
+<label>Show Top Players:</label>
+<input type="number">
+
 @code{
     private string[] Players = new string[5];
 
@@ -23,4 +26,10 @@
     }
 
     private int PlayerList = 5;
+
+    private void TopPlayers(int num){
+        if (num >= 0 && num <=5)
+        {
+            PlayerList = num;
+        }
 }
