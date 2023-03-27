@@ -1,7 +1,14 @@
 @page "/"
 
-<h1>My Theme Name: Cricket</h1>
-<h2>My Name: Arya Patel</h2>
-<p>Current Date & Time is: @DateTime.Now</p>
+<h1>Welcome to Cricket Ranking</h1>
+<h2>@Name</h2>
+<h2>@Theme</h2>
+<h3>@currentDate</h3>
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+@code{
+      string Name = "Arya Patel";
+      string Theme = "Cricket"
+      DateTime currentDate = DateTime.Now;
+}
