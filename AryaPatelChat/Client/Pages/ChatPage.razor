@@ -72,8 +72,15 @@
         }
     }
 
-    async Task Send() =>
-        await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+    async Task Send() {
+        
+        if (userInput != "" && userInput != null){
+            await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+        }
+        else{
+            await hubConnection.SendAsync("SendAnonMsg", messageInput);
+        }
+    }
 
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
