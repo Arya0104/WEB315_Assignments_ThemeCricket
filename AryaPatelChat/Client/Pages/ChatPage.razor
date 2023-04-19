@@ -18,7 +18,7 @@
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
-
+<p>@userTyping</p>
 <hr>
 
 <ul id="messagesList">
@@ -33,6 +33,7 @@
     private List<string> messages = new List<string>();
     private string userInput;
     private string messageInput;
+    private string userTyping;
 
     protected override async Task OnInitializedAsync()
     {
@@ -44,6 +45,13 @@
         {
             var encodedMsg = $"{user}: {message}";
             messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+
+        hubConnection.On<string>("UserTyping", (user) =>
+        {
+            var encodedMsg = $"{user} is typing a message...";
+            userTyping = encodedMsg;
             StateHasChanged();
         });
 
