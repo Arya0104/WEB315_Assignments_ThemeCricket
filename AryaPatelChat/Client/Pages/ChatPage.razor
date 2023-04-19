@@ -14,7 +14,7 @@
 <div class="form-group">
     <label>
         Message:
-        <input @bind="messageInput" size="50" disabled="@(!IsConnected)"/>
+        <input @bind="messageInput" size="50" disabled="@(!IsConnected)" @onclick="(e) => WhileTyping()"/>
     </label>
 </div>
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
@@ -56,6 +56,13 @@
         });
 
         await hubConnection.StartAsync();
+    }
+
+    async Task WhileTyping(){
+        
+        if (userInput != "" && userInput != null){
+            await hubConnection.SendAsync("WhileTyping", userInput);
+        }
     }
 
     async Task Send() =>
